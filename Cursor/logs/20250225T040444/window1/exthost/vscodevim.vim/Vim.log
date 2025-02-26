@@ -1,0 +1,91 @@
+2025-02-25 04:04:55.193 [info] Configuration changed
+2025-02-25 04:04:55.314 [info] /home/tino/code/kikis-text-editor/README.md closed
+2025-02-25 04:04:55.882 [info] Configuration changed
+2025-02-25 04:04:56.181 [info] Configuration changed
+2025-02-25 04:04:56.432 [info] Configuration changed
+2025-02-25 04:04:57.025 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/config.go
+2025-02-25 04:04:57.052 [info] /home/tino/code/kikis-text-editor/main.go.git closed
+2025-02-25 04:05:01.443 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:05:01.465 [info] /home/tino/code/kikis-text-editor/editor/config.go.git closed
+2025-02-25 04:05:09.635 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:05:09.665 [info] /home/tino/code/kikis-text-editor/editor/history.go.git closed
+2025-02-25 04:05:46.694 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:05:46.739 [info] /home/tino/code/kikis-text-editor/editor/editor.go.git closed
+2025-02-25 04:05:53.131 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:05:53.172 [info] /home/tino/code/kikis-text-editor/editor/history.go.git closed
+2025-02-25 04:06:01.143 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/search.go
+2025-02-25 04:06:01.163 [info] /home/tino/code/kikis-text-editor/editor/display.go.git closed
+2025-02-25 04:06:06.913 [info] Active editor: file:///home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:06:06.958 [info] /home/tino/code/kikis-text-editor/editor/search.go.git closed
+2025-02-25 04:06:08.076 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/config.go
+2025-02-25 04:06:08.101 [info] /home/tino/code/kikis-text-editor/main.go.git closed
+2025-02-25 04:06:20.209 [info]  closed
+2025-02-25 04:06:20.585 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:06:31.975 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:06:33.042 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:06:33.070 [info] /home/tino/code/kikis-text-editor/editor/config.go.git closed
+2025-02-25 04:08:40.247 [info] Active editor: file:///home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:08:40.325 [info] /home/tino/code/kikis-text-editor/editor/editor.go.git closed
+2025-02-25 04:08:41.323 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/config.go
+2025-02-25 04:08:41.369 [info] /home/tino/code/kikis-text-editor/main.go.git closed
+2025-02-25 04:08:47.465 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:08:47.515 [info] /home/tino/code/kikis-text-editor/editor/config.go.git closed
+2025-02-25 04:08:57.999 [info]  closed
+2025-02-25 04:09:00.117 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:09:00.166 [info] /home/tino/code/kikis-text-editor/editor/history.go.git closed
+2025-02-25 04:09:04.827 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/completions.go
+2025-02-25 04:09:04.880 [info] /home/tino/code/kikis-text-editor/editor/display.go.git closed
+2025-02-25 04:09:15.568 [info]  closed
+2025-02-25 04:09:16.022 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:09:22.297 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:09:23.048 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:09:23.079 [info] /home/tino/code/kikis-text-editor/editor/completions.go.git closed
+2025-02-25 04:09:28.310 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:09:28.348 [info] /home/tino/code/kikis-text-editor/editor/history.go.git closed
+2025-02-25 04:09:46.463 [info]  closed
+2025-02-25 04:09:46.824 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:09:53.840 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:10:00.077 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:10:00.122 [info] /home/tino/code/kikis-text-editor/editor/editor.go.git closed
+2025-02-25 04:10:01.482 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:10:01.528 [info] /home/tino/code/kikis-text-editor/editor/display.go.git closed
+2025-02-25 04:10:03.211 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:10:03.250 [info] /home/tino/code/kikis-text-editor/editor/history.go.git closed
+2025-02-25 04:10:10.831 [info]  closed
+2025-02-25 04:10:11.177 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:10:18.342 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:10:19.137 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:10:19.228 [info] /home/tino/code/kikis-text-editor/editor/display.go.git closed
+2025-02-25 04:10:19.517 [info]  closed
+2025-02-25 04:10:28.890 [info]  closed
+2025-02-25 04:10:29.104 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:10:35.951 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:10:41.331 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/search.go
+2025-02-25 04:10:41.382 [info] /home/tino/code/kikis-text-editor/editor/editor.go.git closed
+2025-02-25 04:10:48.053 [info]  closed
+2025-02-25 04:10:48.062 [info]  closed
+2025-02-25 04:10:48.067 [info]  closed
+2025-02-25 04:10:48.071 [info]  closed
+2025-02-25 04:10:48.412 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:10:55.362 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:10:56.801 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:10:56.831 [info] /home/tino/code/kikis-text-editor/editor/search.go.git closed
+2025-02-25 04:11:07.916 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/commands.go
+2025-02-25 04:11:07.967 [info] /home/tino/code/kikis-text-editor/editor/editor.go.git closed
+2025-02-25 04:11:11.081 [info]  closed
+2025-02-25 04:11:11.465 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:11:19.542 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:11:19.677 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:11:19.713 [info] /home/tino/code/kikis-text-editor/editor/commands.go.git closed
+2025-02-25 04:11:25.428 [info] Active editor: file:///home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:11:25.455 [info] /home/tino/code/kikis-text-editor/editor/editor.go.git closed
+2025-02-25 04:11:28.950 [info]  closed
+2025-02-25 04:11:29.280 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:11:40.088 [info] /home/tino/code/kikis-text-editor/editor/input.go closed
+2025-02-25 04:11:41.223 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:11:41.252 [info] /home/tino/code/kikis-text-editor/main.go.git closed
+2025-02-25 04:12:07.352 [info] Active editor: file:///home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:12:07.477 [info] /home/tino/code/kikis-text-editor/editor/editor.go.git closed
+2025-02-25 04:13:12.974 [info] Active editor: file:///home/tino/code/kikis-text-editor/README.md
+2025-02-25 04:13:13.120 [info] /home/tino/code/kikis-text-editor/editor/display.go.git closed
+2025-02-25 04:13:13.978 [info]  closed

@@ -1,0 +1,62 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.macMachineId": "ad6ccb0f03818751c82b22d51220fee8d16a8f0a9a41836842c6adf5e52ef8cc",
+    "telemetry.machineId": "fef3af017e345368857d91da6306f214b2f2b93850263cffcbf89e900c126042",
+    "telemetry.devDeviceId": "c0fda5ad-cdff-4914-841a-68b9e0ab335f",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/tino/code/kikis-text-editor"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/tino/code/kikis-text-editor": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/tino/code/kikis-text-editor",
+            "backupPath": "/home/tino/.config/Cursor/Backups/1083a3545ab264ab5a3ac3eb9fd7283c",
+            "uiState": {
+                "mode": 1,
+                "x": 33,
+                "y": 33,
+                "width": 1854,
+                "height": 1014,
+                "zoomLevel": 2
+            }
+        },
+        "openedWindows": []
+    },
+    "windowControlHeight": 50,
+    "theme": "vs-dark",
+    "themeBackground": "#000000",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#dce3ea",
+            "background": "#000000",
+            "editorBackground": "#000000",
+            "titleBarBackground": "#000000",
+            "activityBarBackground": "#000000",
+            "sideBarBackground": "#010101",
+            "statusBarBackground": "#000000",
+            "statusBarNoFolderBackground": "#000000"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    }
+}

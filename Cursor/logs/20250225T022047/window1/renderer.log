@@ -1,0 +1,242 @@
+2025-02-25 02:20:50.282 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 02:20:50.282 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 02:20:50.282 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 02:20:50.283 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 02:20:50.283 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 02:20:50.283 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 02:20:50.284 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 02:20:50.284 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 02:20:50.284 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 02:20:50.330 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 02:20:50.330 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 02:20:50.952 [info] Started local extension host with pid 48875.
+2025-02-25 02:20:54.506 [info] [perf] Render performance baseline is 26ms
+2025-02-25 02:21:42.293 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-02-25 02:21:43.606 [error] ENOENT: no such file or directory, open '/home/tino/.config/Cursor/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/tino/.config/Cursor/User/globalStorage/vscodevim.vim/.registers' ENOENT: no such file or directory, open '/home/tino/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-02-25 02:22:03.974 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-02-25 02:22:11.506 [error] [network] #17: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-02-25 02:22:15.269 [error] [network] #23: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-02-25 02:22:19.796 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-02-25 02:22:39.940 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-02-25 02:22:52.593 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-02-25 02:26:45.339 [error] command 'github.copilot.toggleCopilot' not found: Error: command 'github.copilot.toggleCopilot' not found
+    at X7t.n (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:1955:1346)
+    at X7t.executeCommand (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:1955:1278) command 'github.copilot.toggleCopilot' not found
+2025-02-25 02:26:46.907 [error] Model is disposed!: Error: Model is disposed!
+    at ek.lb (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:287:257)
+    at ek.getVersionId (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:289:2456)
+    at ddi.formatDiffHistory (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5074:14376)
+    at async ddi.fireCppSuggestionDebouncedDiffHistory (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5062:2547)
+    at async ddi.fireOnCacheMiss (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5060:32707)
+    at async ddi.continueModelChangeListener (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5060:34533) Model is disposed!
+2025-02-25 02:26:48.688 [error] Model is disposed!: Error: Model is disposed!
+    at ek.lb (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:287:257)
+    at ek.getVersionId (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:289:2456)
+    at ddi.formatDiffHistory (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5074:14376)
+    at async ddi.fireCppSuggestionDebouncedDiffHistory (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5062:2547)
+    at async ddi.fireOnCacheMiss (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5060:32707)
+    at async ddi.continueModelChangeListener (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5060:34533) Model is disposed!
+2025-02-25 02:49:20.205 [error] Error: The editor could not be opened because the file was not found.
+    at Sat.gc (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:3804:26107)
+    at async Sat.setInput (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:3804:25265)
+    at async qMt.U (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:719:19762)
+    at async qMt.M (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:719:18313)
+    at async qMt.openEditor (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:719:17395)
+    at async vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:831:23542
+    at async T7t.M (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:1917:29354)
+    at async T7t.openCodeEditor (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:1917:20649)
+    at async _Wt.open (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:2927:636)
+    at async UWt.open (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:2927:1675)
+2025-02-25 02:50:33.286 [error] Error: The editor could not be opened because the file was not found.
+    at Sat.gc (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:3804:26107)
+    at async Sat.setInput (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:3804:25265)
+    at async qMt.U (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:719:19762)
+    at async qMt.M (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:719:18313)
+    at async qMt.openEditor (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:719:17395)
+    at async vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:831:23542
+    at async T7t.M (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:1917:29354)
+    at async T7t.openCodeEditor (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:1917:20649)
+    at async _Wt.open (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:2927:636)
+    at async UWt.open (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:2927:1675)
+2025-02-25 02:55:27.135 [error] rune error: Error: rune error
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21) rune error
+2025-02-25 02:55:30.033 [error] rune error: Error: rune error
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21) rune error
+2025-02-25 02:56:07.512 [error] rune error: Error: rune error
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21) rune error
+2025-02-25 02:56:14.321 [error] rune error: Error: rune error
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21) rune error
+2025-02-25 02:56:53.138 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at ek.deltaDecorations (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:295:4057)
+    at pdi.clearPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5080:315)
+    at pdi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5075:11680)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5060:29004)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.C (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:818)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:1036)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:299:15500)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-02-25 02:57:10.040 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at ek.deltaDecorations (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:295:4057)
+    at pdi.clearPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5080:315)
+    at pdi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5075:11680)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5060:29004)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.C (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:818)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:1036)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:299:15500)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-02-25 02:57:17.270 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at ek.deltaDecorations (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:295:4057)
+    at pdi.clearPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5080:315)
+    at pdi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5075:11680)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5060:29004)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.C (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:818)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:1036)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:299:15500)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-02-25 02:57:24.973 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at ek.deltaDecorations (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:295:4057)
+    at pdi.clearPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5080:315)
+    at pdi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5075:11680)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5060:29004)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.C (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:818)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:1036)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:299:15500)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-02-25 02:57:43.031 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at ek.deltaDecorations (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:295:4057)
+    at pdi.clearPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5080:315)
+    at pdi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5075:11680)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5060:29004)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.C (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:818)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:1036)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:299:15500)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-02-25 03:07:00.106 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at ek.deltaDecorations (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:295:4057)
+    at pdi.clearPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5080:315)
+    at pdi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5075:11680)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5060:29004)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.C (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:818)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:1036)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:299:15500)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-02-25 03:15:17.347 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at ek.deltaDecorations (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:295:4057)
+    at pdi.clearPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5080:315)
+    at pdi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5075:11680)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5060:29004)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.C (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:818)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:1036)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:299:15500)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-02-25 03:17:26.514 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at ek.deltaDecorations (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:295:4057)
+    at pdi.clearPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5080:315)
+    at pdi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5075:11680)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5060:29004)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.C (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:818)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:1036)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:299:15500)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-02-25 03:23:43.330 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at ek.deltaDecorations (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:295:4057)
+    at pdi.clearPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5080:315)
+    at pdi.clearCursorPrediction (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5075:11680)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5060:29004)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.C (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:818)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:1036)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:299:15500)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:967) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-02-25 03:23:43.332 [error] Invoking deltaDecorations recursively could lead to leaking decorations.: Error: Invoking deltaDecorations recursively could lead to leaking decorations.
+    at ek.deltaDecorations (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:295:4057)
+    at ddi.clearDecorationsFast (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5074:12959)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:5060:29801)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.C (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:818)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:1036)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:299:15500)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:967)
+    at Ean.r (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:295:29597) Invoking deltaDecorations recursively could lead to leaking decorations.
+2025-02-25 03:30:50.809 [error] There are no commenting ranges at the current position (with range).: Error: There are no commenting ranges at the current position (with range).
+    at bS.addCommentAtLine (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:1408:2601)
+    at bS.addOrToggleCommentAtLine (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:1408:2139)
+    at bS.db (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:1408:1788)
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:1407:21264)
+    at jv.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at jv.C (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:818)
+    at jv.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:1036)
+    at jv.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:299:19676)
+    at s.onMouseUp (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:299:17616)
+    at oFs.emitMouseUp (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:107:17535) There are no commenting ranges at the current position (with range).
+2025-02-25 03:35:26.027 [error] Error: 72:2: expected selector or type assertion, found '}'
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 03:44:20.774 [error] Cannot read properties of undefined (reading 'join'): TypeError: Cannot read properties of undefined (reading 'join')
+    at z1r.getDiff (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:2000:2755)
+    at z1r.closeRunningDiff (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:2000:2138)
+    at vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:2000:1817
+    at v3e.value (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:286:6036)
+    at A.B (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:748)
+    at A.C (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:818)
+    at A.fire (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:59:1036)
+    at lan.endDeferredEmit (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:295:16795)
+    at ek.applyEdits (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:295:1601)
+    at f2.handleDiffState (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:667:4620) Cannot read properties of undefined (reading 'join')
+2025-02-25 04:02:05.841 [error] Error: The editor could not be opened because the file was not found.
+    at Sat.gc (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:3804:26107)
+    at async Sat.setInput (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:3804:25265)
+    at async qMt.U (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:719:19762)
+    at async qMt.M (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:719:18313)
+    at async qMt.openEditor (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:719:17395)
+    at async vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:831:23542
+    at async T7t.M (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:1917:29354)
+    at async T7t.openCodeEditor (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:1917:20649)
+    at async _Wt.open (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:2927:636)
+    at async UWt.open (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:2927:1675)
+2025-02-25 04:02:59.651 [error] Cannot read properties of undefined (reading 'join'): TypeError: Cannot read properties of undefined (reading 'join')
+    at z1r.getDiff (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:2000:2755)
+    at z1r.closeRunningDiff (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:2000:2138)
+    at n (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:2000:3468) Cannot read properties of undefined (reading 'join')
+2025-02-25 04:03:02.503 [error] Cannot read properties of undefined (reading 'join'): TypeError: Cannot read properties of undefined (reading 'join')
+    at z1r.getDiff (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:2000:2755)
+    at z1r.closeRunningDiff (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:2000:2138)
+    at n (vscode-file://vscode-app/tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/workbench.desktop.main.js:2000:3468) Cannot read properties of undefined (reading 'join')
+2025-02-25 04:04:38.120 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/tino/code/kikis-text-editor/editor/editor.go 

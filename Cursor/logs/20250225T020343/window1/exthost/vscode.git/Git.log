@@ -1,0 +1,48 @@
+2025-02-25 02:03:51.138 [info] [main] Log level: Info
+2025-02-25 02:03:51.138 [info] [main] Validating found git in: "git"
+2025-02-25 02:03:51.139 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 02:03:51.139 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 02:03:51.139 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 02:09:02.710 [info] [main] Log level: Info
+2025-02-25 02:09:02.710 [info] [main] Validating found git in: "git"
+2025-02-25 02:09:02.710 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 02:09:02.710 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 02:09:02.710 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-25 02:09:02.731 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2025-02-25 02:09:02.752 [info] [Model][openRepository] Opened repository: /home/tino/code/kikis-text-editor
+2025-02-25 02:09:02.804 [info] > git rev-parse --show-toplevel [11ms]
+2025-02-25 02:09:02.807 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 02:09:02.808 [info] > git config --get commit.template [30ms]
+2025-02-25 02:09:02.890 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [47ms]
+2025-02-25 02:09:02.941 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/tino/code/kikis-text-editor/.git/refs/remotes/origin/main'
+2025-02-25 02:09:02.959 [info] > git rev-parse refs/remotes/origin/main [19ms]
+2025-02-25 02:09:03.115 [info] > git status -z -uall [142ms]
+2025-02-25 02:09:03.116 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [128ms]
+2025-02-25 02:09:03.227 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [73ms]
+2025-02-25 02:09:03.242 [info] > git config --get commit.template [20ms]
+2025-02-25 02:09:03.244 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2025-02-25 02:09:03.244 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-25 02:09:03.271 [info] > git reflog main --grep-reflog=branch: Created from *. [16ms]
+2025-02-25 02:09:03.281 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-02-25 02:09:03.291 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/tino/code/kikis-text-editor/.git/refs/remotes/origin/main'
+2025-02-25 02:09:03.293 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [14ms]
+2025-02-25 02:09:03.305 [info] > git rev-parse refs/remotes/origin/main [14ms]
+2025-02-25 02:09:03.341 [info] > git status -z -uall [24ms]
+2025-02-25 02:09:03.341 [info] > git check-ignore -v -z --stdin [4ms]
+2025-02-25 02:09:03.343 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2025-02-25 02:09:03.359 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [57ms]
+2025-02-25 02:09:03.383 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2025-02-25 02:09:03.402 [info] > git config --local branch.main.vscode-merge-base origin/main [30ms]
+2025-02-25 02:09:03.418 [info] > git config --local branch.main.vscode-merge-base [19ms]
+2025-02-25 02:09:03.431 [info] > git config --get commit.template [16ms]
+2025-02-25 02:09:03.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-02-25 02:09:03.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [23ms]
+2025-02-25 02:09:03.480 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/tino/code/kikis-text-editor/.git/refs/remotes/origin/main'
+2025-02-25 02:09:03.481 [info] > git merge-base refs/heads/main refs/remotes/origin/main [17ms]
+2025-02-25 02:09:03.496 [info] > git rev-parse refs/remotes/origin/main [16ms]
+2025-02-25 02:09:03.525 [info] > git status -z -uall [18ms]
+2025-02-25 02:09:03.526 [info] > git diff --name-status -z --diff-filter=ADMR d322f0b20fbe2d7d2b53266aea9a8295b517552e...refs/remotes/origin/main [35ms]
+2025-02-25 02:09:03.528 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-02-25 02:09:09.704 [info] > git show --textconv :main.go [21ms]
+2025-02-25 02:09:09.707 [info] > git ls-files --stage -- /home/tino/code/kikis-text-editor/main.go [5ms]
+2025-02-25 02:09:09.727 [info] > git cat-file -s aef55af6a87ec4cb3ee5139438750e3918d32bd3 [4ms]

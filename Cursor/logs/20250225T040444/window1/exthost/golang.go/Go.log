@@ -1,0 +1,538 @@
+2025-02-25 04:04:52.253 [info] Try to start language server - activation (enabled: true)
+2025-02-25 04:04:52.580 [info] Running language server gopls(v0.18.1/go1.24.0)
+2025-02-25 04:06:20.620 [info] Running checks...
+2025-02-25 04:06:20.620 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/commands.go:87:9 e.syntaxHighlight undefined (type *Editor has no field or method syntaxHighlight)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/commands.go:91:9 e.syntaxHighlight undefined (type *Editor has no field or method syntaxHighlight)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/config.go:34:4 e.syntaxHighlight undefined (type *Editor has no field or method syntaxHighlight)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/display.go:212:5 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/display.go:453:4 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/editor.go:107:20 cannot use make([]Action, 0) (value of type []Action) as []Change value in struct literal
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/editor.go:247:36 cannot use currentState (variable of struct type Action) as Change value in argument to append
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/history.go:38:19 action.Type undefined (type Change has no field or method Type)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/history.go:43:19 action.text undefined (type Change has no field or method text)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/history.go:43:19 too many errors (compile)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/commands.go:87:9 e.syntaxHighlight undefined (type *Editor has no field or method syntaxHighlight)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/commands.go:91:9 e.syntaxHighlight undefined (type *Editor has no field or method syntaxHighlight)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/config.go:34:4 e.syntaxHighlight undefined (type *Editor has no field or method syntaxHighlight)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/display.go:212:5 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/display.go:453:4 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/editor.go:107:20 cannot use make([]Action, 0) (value of type []Action) as []Change value in struct literal
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/editor.go:247:36 cannot use currentState (variable of struct type Action) as Change value in argument to append
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/history.go:38:19 action.Type undefined (type Change has no field or method Type)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/history.go:43:19 action.text undefined (type Change has no field or method text)
+2025-02-25 04:06:20.857 [info] /home/tino/code/kikis-text-editor/editor/history.go:43:19 too many errors (compile)
+2025-02-25 04:06:20.857 [info] 
+2025-02-25 04:07:54.399 [info] Running checks...
+2025-02-25 04:07:54.399 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/history.go:8:6 Action redeclared in this block
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/commands.go:136:7 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/commands.go:137:106 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/completions.go:95:3 unknown field Type in struct literal of type Action
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/completions.go:100:3 unknown field text in struct literal of type Action
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/config.go:35:4 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:72:3 unknown field Type in struct literal of type Action
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:77:3 unknown field text in struct literal of type Action
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 unknown field Type in struct literal of type Action
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 too many errors (compile)
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/history.go:8:6 Action redeclared in this block
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/commands.go:136:7 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/commands.go:137:106 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/completions.go:95:3 unknown field Type in struct literal of type Action
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/completions.go:100:3 unknown field text in struct literal of type Action
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/config.go:35:4 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:72:3 unknown field Type in struct literal of type Action
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:77:3 unknown field text in struct literal of type Action
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 unknown field Type in struct literal of type Action
+2025-02-25 04:07:54.802 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 too many errors (compile)
+2025-02-25 04:07:54.802 [info] 
+2025-02-25 04:07:56.302 [info] Running checks...
+2025-02-25 04:07:56.302 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:07:56.625 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/history.go:8:6 Action redeclared in this block
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/commands.go:136:7 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/commands.go:137:106 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/completions.go:95:3 unknown field Type in struct literal of type Action
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/completions.go:100:3 unknown field text in struct literal of type Action
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/config.go:35:4 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:72:3 unknown field Type in struct literal of type Action
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:77:3 unknown field text in struct literal of type Action
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 unknown field Type in struct literal of type Action
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 too many errors (compile)
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/history.go:8:6 Action redeclared in this block
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/commands.go:136:7 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/commands.go:137:106 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/completions.go:95:3 unknown field Type in struct literal of type Action
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/completions.go:100:3 unknown field text in struct literal of type Action
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/config.go:35:4 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:72:3 unknown field Type in struct literal of type Action
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:77:3 unknown field text in struct literal of type Action
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 unknown field Type in struct literal of type Action
+2025-02-25 04:07:56.626 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 too many errors (compile)
+2025-02-25 04:07:56.626 [info] 
+2025-02-25 04:07:59.329 [info] Running checks...
+2025-02-25 04:07:59.330 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/history.go:8:6 Action redeclared in this block
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/commands.go:136:7 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/commands.go:137:106 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/completions.go:95:3 unknown field Type in struct literal of type Action
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/completions.go:100:3 unknown field text in struct literal of type Action
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/config.go:35:4 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:72:3 unknown field Type in struct literal of type Action
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:77:3 unknown field text in struct literal of type Action
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 unknown field Type in struct literal of type Action
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 too many errors (compile)
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/history.go:8:6 Action redeclared in this block
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/commands.go:136:7 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/commands.go:137:106 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/completions.go:95:3 unknown field Type in struct literal of type Action
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/completions.go:100:3 unknown field text in struct literal of type Action
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/config.go:35:4 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:72:3 unknown field Type in struct literal of type Action
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:77:3 unknown field text in struct literal of type Action
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 unknown field Type in struct literal of type Action
+2025-02-25 04:07:59.583 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 too many errors (compile)
+2025-02-25 04:07:59.583 [info] 
+2025-02-25 04:08:24.384 [info] Running checks...
+2025-02-25 04:08:24.384 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/history.go:8:6 Action redeclared in this block
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/commands.go:136:7 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/commands.go:137:106 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/completions.go:95:3 unknown field Type in struct literal of type Action
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/completions.go:100:3 unknown field text in struct literal of type Action
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/config.go:35:4 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:72:3 unknown field Type in struct literal of type Action
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:77:3 unknown field text in struct literal of type Action
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 unknown field Type in struct literal of type Action
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 too many errors (compile)
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/history.go:8:6 Action redeclared in this block
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/commands.go:136:7 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/commands.go:137:106 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/completions.go:95:3 unknown field Type in struct literal of type Action
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/completions.go:100:3 unknown field text in struct literal of type Action
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/config.go:35:4 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:72:3 unknown field Type in struct literal of type Action
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:77:3 unknown field text in struct literal of type Action
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 unknown field Type in struct literal of type Action
+2025-02-25 04:08:24.727 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 too many errors (compile)
+2025-02-25 04:08:24.727 [info] 
+2025-02-25 04:08:55.151 [info] Running checks...
+2025-02-25 04:08:55.151 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/history.go:8:6 Action redeclared in this block
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/commands.go:136:7 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/commands.go:137:106 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/completions.go:95:3 unknown field Type in struct literal of type Action
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/completions.go:100:3 unknown field text in struct literal of type Action
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/config.go:35:4 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:72:3 unknown field Type in struct literal of type Action
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:77:3 unknown field text in struct literal of type Action
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 unknown field Type in struct literal of type Action
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 too many errors (compile)
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/history.go:8:6 Action redeclared in this block
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/commands.go:136:7 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/commands.go:137:106 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/completions.go:95:3 unknown field Type in struct literal of type Action
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/completions.go:100:3 unknown field text in struct literal of type Action
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/config.go:35:4 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:72:3 unknown field Type in struct literal of type Action
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:77:3 unknown field text in struct literal of type Action
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 unknown field Type in struct literal of type Action
+2025-02-25 04:08:55.479 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:116:4 too many errors (compile)
+2025-02-25 04:08:55.479 [info] 
+2025-02-25 04:09:37.759 [info] Running checks...
+2025-02-25 04:09:37.759 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/commands.go:136:7 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/commands.go:137:106 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/config.go:35:4 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/display.go:212:5 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/display.go:453:4 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/editor.go:104:3 duplicate field name showLineNumbers in struct literal
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/editor.go:106:3 unknown field wordWrap in struct literal of type Editor
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/search.go:119:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 too many errors (compile)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/commands.go:136:7 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/commands.go:137:106 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/config.go:35:4 e.wordWrap undefined (type *Editor has no field or method wordWrap)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/display.go:212:5 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/display.go:453:4 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/editor.go:104:3 duplicate field name showLineNumbers in struct literal
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/editor.go:106:3 unknown field wordWrap in struct literal of type Editor
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/search.go:119:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:38.121 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 too many errors (compile)
+2025-02-25 04:09:38.121 [info] 
+2025-02-25 04:09:57.504 [info] Running checks...
+2025-02-25 04:09:57.505 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/display.go:212:5 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/display.go:453:4 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/search.go:119:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/search.go:128:7 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/search.go:129:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/search.go:135:4 e.searchIndex undefined (type *Editor has no field or method searchIndex) (compile)
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/display.go:212:5 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/display.go:453:4 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/search.go:119:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/search.go:128:7 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/search.go:129:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:57.766 [info] /home/tino/code/kikis-text-editor/editor/search.go:135:4 e.searchIndex undefined (type *Editor has no field or method searchIndex) (compile)
+2025-02-25 04:09:57.766 [info] 
+2025-02-25 04:09:58.836 [info] Running checks...
+2025-02-25 04:09:58.836 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/display.go:212:5 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/display.go:453:4 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/search.go:119:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/search.go:128:7 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/search.go:129:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/search.go:135:4 e.searchIndex undefined (type *Editor has no field or method searchIndex) (compile)
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/display.go:212:5 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/display.go:453:4 e.statusLine undefined (type *Editor has no field or method statusLine)
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/search.go:119:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/search.go:128:7 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/search.go:129:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:09:59.077 [info] /home/tino/code/kikis-text-editor/editor/search.go:135:4 e.searchIndex undefined (type *Editor has no field or method searchIndex) (compile)
+2025-02-25 04:09:59.077 [info] 
+2025-02-25 04:10:22.815 [info] Running checks...
+2025-02-25 04:10:22.815 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:10:23.074 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:10:23.074 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:10:23.074 [info] /home/tino/code/kikis-text-editor/editor/editor.go:106:3 duplicate field name showLineNumbers in struct literal
+2025-02-25 04:10:23.074 [info] /home/tino/code/kikis-text-editor/editor/search.go:119:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:23.074 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:23.074 [info] /home/tino/code/kikis-text-editor/editor/search.go:128:7 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:23.074 [info] /home/tino/code/kikis-text-editor/editor/search.go:129:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:23.074 [info] /home/tino/code/kikis-text-editor/editor/search.go:135:4 e.searchIndex undefined (type *Editor has no field or method searchIndex) (compile)
+2025-02-25 04:10:23.074 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:10:23.074 [info] /home/tino/code/kikis-text-editor/editor/editor.go:106:3 duplicate field name showLineNumbers in struct literal
+2025-02-25 04:10:23.074 [info] /home/tino/code/kikis-text-editor/editor/search.go:119:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:23.074 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:23.074 [info] /home/tino/code/kikis-text-editor/editor/search.go:128:7 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:23.074 [info] /home/tino/code/kikis-text-editor/editor/search.go:129:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:23.074 [info] /home/tino/code/kikis-text-editor/editor/search.go:135:4 e.searchIndex undefined (type *Editor has no field or method searchIndex) (compile)
+2025-02-25 04:10:23.074 [info] 
+2025-02-25 04:10:25.473 [info] Running checks...
+2025-02-25 04:10:25.473 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:10:25.771 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:10:25.771 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:10:25.771 [info] /home/tino/code/kikis-text-editor/editor/editor.go:106:3 duplicate field name showLineNumbers in struct literal
+2025-02-25 04:10:25.771 [info] /home/tino/code/kikis-text-editor/editor/search.go:119:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:25.771 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:25.771 [info] /home/tino/code/kikis-text-editor/editor/search.go:128:7 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:25.771 [info] /home/tino/code/kikis-text-editor/editor/search.go:129:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:25.771 [info] /home/tino/code/kikis-text-editor/editor/search.go:135:4 e.searchIndex undefined (type *Editor has no field or method searchIndex) (compile)
+2025-02-25 04:10:25.771 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:10:25.771 [info] /home/tino/code/kikis-text-editor/editor/editor.go:106:3 duplicate field name showLineNumbers in struct literal
+2025-02-25 04:10:25.771 [info] /home/tino/code/kikis-text-editor/editor/search.go:119:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:25.771 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:25.771 [info] /home/tino/code/kikis-text-editor/editor/search.go:128:7 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:25.771 [info] /home/tino/code/kikis-text-editor/editor/search.go:129:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:25.771 [info] /home/tino/code/kikis-text-editor/editor/search.go:135:4 e.searchIndex undefined (type *Editor has no field or method searchIndex) (compile)
+2025-02-25 04:10:25.771 [info] 
+2025-02-25 04:10:39.505 [info] Running checks...
+2025-02-25 04:10:39.505 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:10:39.778 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:10:39.778 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:10:39.778 [info] /home/tino/code/kikis-text-editor/editor/search.go:119:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:39.778 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:39.778 [info] /home/tino/code/kikis-text-editor/editor/search.go:128:7 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:39.778 [info] /home/tino/code/kikis-text-editor/editor/search.go:129:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:39.778 [info] /home/tino/code/kikis-text-editor/editor/search.go:135:4 e.searchIndex undefined (type *Editor has no field or method searchIndex) (compile)
+2025-02-25 04:10:39.778 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:10:39.778 [info] /home/tino/code/kikis-text-editor/editor/search.go:119:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:39.778 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:39.778 [info] /home/tino/code/kikis-text-editor/editor/search.go:128:7 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:39.778 [info] /home/tino/code/kikis-text-editor/editor/search.go:129:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:39.778 [info] /home/tino/code/kikis-text-editor/editor/search.go:135:4 e.searchIndex undefined (type *Editor has no field or method searchIndex) (compile)
+2025-02-25 04:10:39.778 [info] 
+2025-02-25 04:10:40.330 [info] Running checks...
+2025-02-25 04:10:40.330 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:10:40.600 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:10:40.600 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:10:40.600 [info] /home/tino/code/kikis-text-editor/editor/search.go:119:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:40.600 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:40.600 [info] /home/tino/code/kikis-text-editor/editor/search.go:128:7 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:40.600 [info] /home/tino/code/kikis-text-editor/editor/search.go:129:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:40.600 [info] /home/tino/code/kikis-text-editor/editor/search.go:135:4 e.searchIndex undefined (type *Editor has no field or method searchIndex) (compile)
+2025-02-25 04:10:40.600 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll)
+2025-02-25 04:10:40.600 [info] /home/tino/code/kikis-text-editor/editor/search.go:119:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:40.600 [info] /home/tino/code/kikis-text-editor/editor/search.go:123:4 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:40.600 [info] /home/tino/code/kikis-text-editor/editor/search.go:128:7 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:40.600 [info] /home/tino/code/kikis-text-editor/editor/search.go:129:8 e.searchIndex undefined (type *Editor has no field or method searchIndex)
+2025-02-25 04:10:40.600 [info] /home/tino/code/kikis-text-editor/editor/search.go:135:4 e.searchIndex undefined (type *Editor has no field or method searchIndex) (compile)
+2025-02-25 04:10:40.600 [info] 
+2025-02-25 04:11:00.032 [info] Running checks...
+2025-02-25 04:11:00.032 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:11:00.279 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:11:00.279 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll) (compile)
+2025-02-25 04:11:00.280 [info] /home/tino/code/kikis-text-editor/editor/commands.go:215:15 e.replaceAll undefined (type *Editor has no field or method replaceAll) (compile)
+2025-02-25 04:11:00.280 [info] 
+2025-02-25 04:11:22.187 [info] Running checks...
+2025-02-25 04:11:22.187 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/completions.go:77:18 func (*Editor).applyCompletion is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/completions.go:111:18 func (*Editor).nextCompletion is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/completions.go:117:18 func (*Editor).prevCompletion is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/config.go:16:18 func (*Editor).loadConfig is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/config.go:40:18 func (*Editor).saveDefaultConfig is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:113:18 func (*Editor).backspace is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/editor.go:61:2 field lineCache is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/editor.go:62:2 field syntaxCache is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/history.go:15:2 field lineNum is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/history.go:16:2 field oldLine is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/history.go:17:2 field newLine is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/history.go:18:2 field timestamp is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/input.go:337:18 func (*Editor).scroll is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/input.go:347:18 func (*Editor).handleTreeClick is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/search.go:11:18 func (*Editor).startSearch is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/search.go:115:2 field line is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/search.go:115:8 field col is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/search.go:118:18 func (*Editor).buildSearchIndex is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/settings.go:13:5 var defaultSettings is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/settings.go:27:18 func (*Editor).loadSettings is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:13:2 var goKeywords is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:19:2 var goTypes is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:22:2 var pythonKeywords is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:30:2 var jsKeywords is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:39:2 var rustKeywords is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:47:2 var numberPattern is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:48:2 var stringPattern is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:49:2 var commentPattern is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:54:2 var keywordStyle is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:55:2 var typeStyle is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:56:2 var stringStyle is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:57:2 var numberStyle is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:58:2 var commentStyle is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:59:2 var defaultStyle is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:63:2 field line is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:64:2 field styles is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:65:2 field timestamp is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:68:18 func (*Editor).highlightSyntax is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:105:6 func highlightGo is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:110:6 func highlightPython is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:114:6 func highlightJavaScript is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:118:6 func highlightRust is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:122:6 func highlightKeywords is unused (U1000)
+2025-02-25 04:11:22.762 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:129:6 func highlightPattern is unused (U1000)
+2025-02-25 04:11:22.762 [info] 
+2025-02-25 04:11:23.374 [info] Running checks...
+2025-02-25 04:11:23.374 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/completions.go:77:18 func (*Editor).applyCompletion is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/completions.go:111:18 func (*Editor).nextCompletion is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/completions.go:117:18 func (*Editor).prevCompletion is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/config.go:16:18 func (*Editor).loadConfig is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/config.go:40:18 func (*Editor).saveDefaultConfig is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:113:18 func (*Editor).backspace is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/editor.go:61:2 field lineCache is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/editor.go:62:2 field syntaxCache is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/history.go:15:2 field lineNum is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/history.go:16:2 field oldLine is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/history.go:17:2 field newLine is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/history.go:18:2 field timestamp is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/input.go:337:18 func (*Editor).scroll is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/input.go:347:18 func (*Editor).handleTreeClick is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/search.go:11:18 func (*Editor).startSearch is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/search.go:115:2 field line is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/search.go:115:8 field col is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/search.go:118:18 func (*Editor).buildSearchIndex is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/settings.go:13:5 var defaultSettings is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/settings.go:27:18 func (*Editor).loadSettings is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:13:2 var goKeywords is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:19:2 var goTypes is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:22:2 var pythonKeywords is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:30:2 var jsKeywords is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:39:2 var rustKeywords is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:47:2 var numberPattern is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:48:2 var stringPattern is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:49:2 var commentPattern is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:54:2 var keywordStyle is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:55:2 var typeStyle is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:56:2 var stringStyle is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:57:2 var numberStyle is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:58:2 var commentStyle is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:59:2 var defaultStyle is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:63:2 field line is unused (U1000)
+2025-02-25 04:11:23.615 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:64:2 field styles is unused (U1000)
+2025-02-25 04:11:23.616 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:65:2 field timestamp is unused (U1000)
+2025-02-25 04:11:23.616 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:68:18 func (*Editor).highlightSyntax is unused (U1000)
+2025-02-25 04:11:23.616 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:105:6 func highlightGo is unused (U1000)
+2025-02-25 04:11:23.616 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:110:6 func highlightPython is unused (U1000)
+2025-02-25 04:11:23.616 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:114:6 func highlightJavaScript is unused (U1000)
+2025-02-25 04:11:23.616 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:118:6 func highlightRust is unused (U1000)
+2025-02-25 04:11:23.616 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:122:6 func highlightKeywords is unused (U1000)
+2025-02-25 04:11:23.616 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:129:6 func highlightPattern is unused (U1000)
+2025-02-25 04:11:23.616 [info] 
+2025-02-25 04:11:45.403 [info] Running checks...
+2025-02-25 04:11:45.403 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/completions.go:77:18 func (*Editor).applyCompletion is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/completions.go:111:18 func (*Editor).nextCompletion is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/completions.go:117:18 func (*Editor).prevCompletion is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/config.go:16:18 func (*Editor).loadConfig is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/config.go:40:18 func (*Editor).saveDefaultConfig is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:113:18 func (*Editor).backspace is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/editor.go:61:2 field lineCache is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/editor.go:62:2 field syntaxCache is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/history.go:15:2 field lineNum is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/history.go:16:2 field oldLine is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/history.go:17:2 field newLine is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/history.go:18:2 field timestamp is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/input.go:337:18 func (*Editor).scroll is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/input.go:347:18 func (*Editor).handleTreeClick is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/search.go:11:18 func (*Editor).startSearch is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/search.go:115:2 field line is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/search.go:115:8 field col is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/search.go:118:18 func (*Editor).buildSearchIndex is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/settings.go:13:5 var defaultSettings is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/settings.go:27:18 func (*Editor).loadSettings is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:13:2 var goKeywords is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:19:2 var goTypes is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:22:2 var pythonKeywords is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:30:2 var jsKeywords is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:39:2 var rustKeywords is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:47:2 var numberPattern is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:48:2 var stringPattern is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:49:2 var commentPattern is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:54:2 var keywordStyle is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:55:2 var typeStyle is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:56:2 var stringStyle is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:57:2 var numberStyle is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:58:2 var commentStyle is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:59:2 var defaultStyle is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:63:2 field line is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:64:2 field styles is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:65:2 field timestamp is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:68:18 func (*Editor).highlightSyntax is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:105:6 func highlightGo is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:110:6 func highlightPython is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:114:6 func highlightJavaScript is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:118:6 func highlightRust is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:122:6 func highlightKeywords is unused (U1000)
+2025-02-25 04:11:45.993 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:129:6 func highlightPattern is unused (U1000)
+2025-02-25 04:11:45.993 [info] 
+2025-02-25 04:11:46.944 [info] Running checks...
+2025-02-25 04:11:46.944 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/completions.go:77:18 func (*Editor).applyCompletion is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/completions.go:111:18 func (*Editor).nextCompletion is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/completions.go:117:18 func (*Editor).prevCompletion is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/config.go:16:18 func (*Editor).loadConfig is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/config.go:40:18 func (*Editor).saveDefaultConfig is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:113:18 func (*Editor).backspace is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/editor.go:61:2 field lineCache is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/editor.go:62:2 field syntaxCache is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/history.go:15:2 field lineNum is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/history.go:16:2 field oldLine is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/history.go:17:2 field newLine is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/history.go:18:2 field timestamp is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/input.go:337:18 func (*Editor).scroll is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/input.go:347:18 func (*Editor).handleTreeClick is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/search.go:11:18 func (*Editor).startSearch is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/search.go:115:2 field line is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/search.go:115:8 field col is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/search.go:118:18 func (*Editor).buildSearchIndex is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/settings.go:13:5 var defaultSettings is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/settings.go:27:18 func (*Editor).loadSettings is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:13:2 var goKeywords is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:19:2 var goTypes is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:22:2 var pythonKeywords is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:30:2 var jsKeywords is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:39:2 var rustKeywords is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:47:2 var numberPattern is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:48:2 var stringPattern is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:49:2 var commentPattern is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:54:2 var keywordStyle is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:55:2 var typeStyle is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:56:2 var stringStyle is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:57:2 var numberStyle is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:58:2 var commentStyle is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:59:2 var defaultStyle is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:63:2 field line is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:64:2 field styles is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:65:2 field timestamp is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:68:18 func (*Editor).highlightSyntax is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:105:6 func highlightGo is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:110:6 func highlightPython is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:114:6 func highlightJavaScript is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:118:6 func highlightRust is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:122:6 func highlightKeywords is unused (U1000)
+2025-02-25 04:11:47.196 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:129:6 func highlightPattern is unused (U1000)
+2025-02-25 04:11:47.196 [info] 
+2025-02-25 04:12:42.043 [info] Running checks...
+2025-02-25 04:12:42.043 [info] Starting linting the current package at /home/tino/code/kikis-text-editor/editor
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor>Finished running tool: /home/tino/go/bin/staticcheck
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/completions.go:77:18 func (*Editor).applyCompletion is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/completions.go:111:18 func (*Editor).nextCompletion is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/completions.go:117:18 func (*Editor).prevCompletion is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/config.go:16:18 func (*Editor).loadConfig is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/config.go:40:18 func (*Editor).saveDefaultConfig is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/cursor.go:113:18 func (*Editor).backspace is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/editor.go:61:2 field lineCache is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/editor.go:62:2 field syntaxCache is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/history.go:15:2 field lineNum is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/history.go:16:2 field oldLine is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/history.go:17:2 field newLine is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/history.go:18:2 field timestamp is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/input.go:337:18 func (*Editor).scroll is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/input.go:347:18 func (*Editor).handleTreeClick is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/search.go:11:18 func (*Editor).startSearch is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/search.go:115:2 field line is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/search.go:115:8 field col is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/search.go:118:18 func (*Editor).buildSearchIndex is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/settings.go:13:5 var defaultSettings is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/settings.go:27:18 func (*Editor).loadSettings is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:13:2 var goKeywords is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:19:2 var goTypes is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:22:2 var pythonKeywords is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:30:2 var jsKeywords is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:39:2 var rustKeywords is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:47:2 var numberPattern is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:48:2 var stringPattern is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:49:2 var commentPattern is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:54:2 var keywordStyle is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:55:2 var typeStyle is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:56:2 var stringStyle is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:57:2 var numberStyle is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:58:2 var commentStyle is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:59:2 var defaultStyle is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:63:2 field line is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:64:2 field styles is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:65:2 field timestamp is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:68:18 func (*Editor).highlightSyntax is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:105:6 func highlightGo is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:110:6 func highlightPython is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:114:6 func highlightJavaScript is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:118:6 func highlightRust is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:122:6 func highlightKeywords is unused (U1000)
+2025-02-25 04:12:42.701 [info] /home/tino/code/kikis-text-editor/editor/syntax.go:129:6 func highlightPattern is unused (U1000)
+2025-02-25 04:12:42.701 [info] 

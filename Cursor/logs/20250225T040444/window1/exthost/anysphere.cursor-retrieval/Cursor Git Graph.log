@@ -1,0 +1,113 @@
+2025-02-25 04:04:55.101 [info] Using repo backend url https://repo42.cursor.sh
+2025-02-25 04:04:55.313 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:04:55.341 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-02-25 04:04:56.613 [info] Using repo backend url https://repo42.cursor.sh
+2025-02-25 04:04:56.613 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-02-25 04:06:19.900 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:06:19.900 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:06:19.901 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/config.go
+2025-02-25 04:06:20.420 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/config.go
+2025-02-25 04:06:20.420 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/config.go
+2025-02-25 04:06:20.843 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/config.go
+2025-02-25 04:06:20.843 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/config.go
+2025-02-25 04:06:33.068 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:06:33.383 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:06:33.383 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:08:40.308 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:08:40.308 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:08:40.704 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:08:40.705 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:08:41.363 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/config.go
+2025-02-25 04:08:41.363 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/config.go
+2025-02-25 04:08:41.664 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/config.go
+2025-02-25 04:08:41.665 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/config.go
+2025-02-25 04:08:47.508 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:08:47.919 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:08:47.920 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:09:00.155 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:09:00.478 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:09:00.479 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:09:04.876 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/completions.go
+2025-02-25 04:09:05.245 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/completions.go
+2025-02-25 04:09:05.245 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/completions.go
+2025-02-25 04:09:15.767 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/completions.go
+2025-02-25 04:09:15.768 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/completions.go
+2025-02-25 04:09:16.083 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/completions.go
+2025-02-25 04:09:16.083 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/completions.go
+2025-02-25 04:09:23.076 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:09:23.077 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:09:23.383 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:09:23.383 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:09:28.342 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:09:28.342 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:09:28.642 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:09:28.642 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:09:46.651 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:09:46.652 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:09:47.029 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:09:47.029 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:10:00.114 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:10:00.114 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:10:00.418 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:10:00.418 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:10:01.521 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:10:01.521 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:10:01.823 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:10:01.823 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/history.go
+2025-02-25 04:10:03.246 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:10:03.246 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:10:03.550 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:10:03.550 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:10:11.030 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:10:11.030 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:10:11.347 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:10:11.347 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:10:19.223 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:10:19.223 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:10:19.636 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:10:19.636 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:10:29.020 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:10:29.020 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:10:29.333 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:10:29.333 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:10:41.376 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/search.go
+2025-02-25 04:10:41.712 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/search.go
+2025-02-25 04:10:41.712 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/search.go
+2025-02-25 04:10:48.277 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/search.go
+2025-02-25 04:10:48.277 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/search.go
+2025-02-25 04:10:48.690 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/search.go
+2025-02-25 04:10:48.690 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/search.go
+2025-02-25 04:10:56.829 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:10:56.829 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:10:57.216 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:10:57.216 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:11:07.962 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/commands.go
+2025-02-25 04:11:08.295 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/commands.go
+2025-02-25 04:11:08.296 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/commands.go
+2025-02-25 04:11:11.305 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/commands.go
+2025-02-25 04:11:11.305 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/commands.go
+2025-02-25 04:11:11.746 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/commands.go
+2025-02-25 04:11:11.746 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/commands.go
+2025-02-25 04:11:19.709 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:11:19.709 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:11:20.042 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:11:20.042 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:11:25.450 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:11:25.450 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:11:25.750 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:11:25.750 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:11:29.147 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:11:29.147 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:11:29.509 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:11:29.509 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 04:11:41.249 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:11:41.250 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:11:41.572 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:11:41.572 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/editor.go
+2025-02-25 04:12:07.452 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:12:07.452 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:12:07.871 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:12:07.872 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/editor/display.go
+2025-02-25 04:13:13.101 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/README.md
+2025-02-25 04:13:13.404 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/README.md
+2025-02-25 04:13:13.404 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/README.md

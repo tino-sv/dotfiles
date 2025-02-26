@@ -1,0 +1,237 @@
+2025-02-25 02:20:53.012 [info] Extension host with pid 48875 started
+2025-02-25 02:20:53.012 [info] Skipping acquiring lock for /home/tino/.config/Cursor/User/workspaceStorage/f183238d0bf626110dfff9a00e7ac349.
+2025-02-25 02:20:53.017 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-25 02:20:53.148 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-25 02:20:53.155 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-25 02:20:53.282 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-25 02:20:53.503 [info] Eager extensions activated
+2025-02-25 02:20:53.543 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 02:20:53.768 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 02:20:54.011 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 02:20:54.074 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 02:20:54.318 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 02:20:54.329 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 02:20:54.577 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-25 02:21:42.452 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 02:21:43.603 [error] Error: ENOENT: no such file or directory, open '/home/tino/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-02-25 02:22:25.954 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-25 02:22:25.974 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-25 02:22:26.064 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-25 02:25:19.131 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2025-02-25 02:26:37.613 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-02-25 02:26:41.267 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-02-25 02:27:16.539 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-25 02:27:16.583 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-25 02:30:04.127 [error] [golang.go] provider FAILED
+2025-02-25 02:30:04.132 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 02:55:24.922 [error] [golang.go] provider FAILED
+2025-02-25 02:55:24.922 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 02:55:27.133 [error] [golang.go] provider FAILED
+2025-02-25 02:55:27.133 [error] Error: rune error
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 02:55:30.032 [error] [golang.go] provider FAILED
+2025-02-25 02:55:30.032 [error] Error: rune error
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 02:55:39.058 [error] [golang.go] provider FAILED
+2025-02-25 02:55:39.058 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 02:56:07.510 [error] [golang.go] provider FAILED
+2025-02-25 02:56:07.510 [error] Error: rune error
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 02:56:14.319 [error] [golang.go] provider FAILED
+2025-02-25 02:56:14.319 [error] Error: rune error
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 02:57:00.580 [error] [golang.go] provider FAILED
+2025-02-25 02:57:00.580 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 02:57:27.185 [error] [golang.go] provider FAILED
+2025-02-25 02:57:27.186 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 03:07:04.210 [error] [golang.go] provider FAILED
+2025-02-25 03:07:04.210 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 03:07:21.182 [error] [golang.go] provider FAILED
+2025-02-25 03:07:21.182 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 03:22:31.551 [error] [golang.go] provider FAILED
+2025-02-25 03:22:31.552 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 03:35:26.024 [error] [golang.go] provider FAILED
+2025-02-25 03:35:26.024 [error] Error: 72:2: expected selector or type assertion, found '}'
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 03:49:25.664 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-02-25 04:04:29.064 [error] [golang.go] provider FAILED
+2025-02-25 04:04:29.065 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 04:04:30.151 [error] [golang.go] provider FAILED
+2025-02-25 04:04:30.151 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+	at handleMessage (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/tino/.cursor/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-25 04:04:38.401 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-25 04:04:38.563 [error] TypeError: r.some is not a function
+	at h.saveToDisk (/home/tino/.cursor/extensions/vscodevim.vim-1.29.0/out/extension.js:2:663045)
+	at t.deactivate (/home/tino/.cursor/extensions/vscodevim.vim-1.29.0/out/extension.js:2:177330)
+	at sWt.eb (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:11770)
+	at file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:9919
+	at Array.map (<anonymous>)
+	at sWt.$ (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:9907)
+	at sWt.terminate (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:10150)
+	at hut.terminate (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:1435)
+	at Hr (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:15168)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:11698)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-02-25 04:04:38.565 [error] Canceled: Canceled
+	at new nwt (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:47:111537)
+	at iV.U (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:47:116159)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:47:113651)
+	at cH.g (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:32525)
+	at cH.executeCommand (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:32029)
+	at e.registerCommand.description (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:31359)
+	at cH.h (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:33046)
+	at cH.g (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:32122)
+	at cH.executeCommand (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:32029)
+	at Object.executeCommand (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:180:41481)
+	at p_.L [as value] (/tmp/.mount_cursor0qdslY/resources/app/extensions/git/dist/main.js:4:977678)
+	at J.B (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:747)
+	at J.C (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:817)
+	at J.fire (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:1034)
+	at Object.f [as dispose] (/tmp/.mount_cursor0qdslY/resources/app/extensions/git/dist/main.js:4:999254)
+	at /tmp/.mount_cursor0qdslY/resources/app/extensions/git/dist/main.js:4:1005376
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_cursor0qdslY/resources/app/extensions/git/dist/main.js:4:1005362)
+	at $2.<anonymous> (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:20083)
+	at $2.dispose (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:20179)
+	at $2.<anonymous> (/tmp/.mount_cursor0qdslY/resources/app/extensions/git/dist/main.js:4:980157)
+	at $2.dispose (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:20179)
+	at Hs (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:706)
+	at file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:15078
+	at file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1017
+	at Object.dispose (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:708)
+	at sWt.eb (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:11965)
+	at file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:9919
+	at Array.map (<anonymous>)
+	at sWt.$ (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:9907)
+	at sWt.terminate (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:10150)
+	at hut.terminate (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:1435)
+	at Hr (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:15168)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:11698)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-02-25 04:04:38.566 [error] Canceled: Canceled
+	at new nwt (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:47:111537)
+	at iV.U (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:47:116159)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:47:113651)
+	at cH.g (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:32525)
+	at cH.executeCommand (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:32029)
+	at e.registerCommand.description (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:31359)
+	at cH.h (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:33046)
+	at cH.g (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:32122)
+	at cH.executeCommand (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:32029)
+	at Object.executeCommand (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:180:41481)
+	at set hasGitHubRepositories (/tmp/.mount_cursor0qdslY/resources/app/extensions/github/dist/extension.js:4:328629)
+	at /tmp/.mount_cursor0qdslY/resources/app/extensions/github/dist/extension.js:4:329588
+	at p_.value (/tmp/.mount_cursor0qdslY/resources/app/extensions/git/dist/main.js:4:1093221)
+	at J.B (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:747)
+	at J.C (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:817)
+	at J.fire (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:1034)
+	at Object.f [as dispose] (/tmp/.mount_cursor0qdslY/resources/app/extensions/git/dist/main.js:4:999254)
+	at /tmp/.mount_cursor0qdslY/resources/app/extensions/git/dist/main.js:4:1005376
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_cursor0qdslY/resources/app/extensions/git/dist/main.js:4:1005362)
+	at $2.<anonymous> (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:20083)
+	at $2.dispose (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:20179)
+	at $2.<anonymous> (/tmp/.mount_cursor0qdslY/resources/app/extensions/git/dist/main.js:4:980157)
+	at $2.dispose (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:20179)
+	at Hs (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:706)
+	at file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:15078
+	at file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1017
+	at Object.dispose (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:708)
+	at sWt.eb (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:11965)
+	at file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:9919
+	at Array.map (<anonymous>)
+	at sWt.$ (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:9907)
+	at sWt.terminate (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:10150)
+	at hut.terminate (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:1435)
+	at Hr (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:15168)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:11698)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-02-25 04:04:38.592 [error] Error: Channel has been closed
+	at r (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:2438)
+	at Object.appendLine (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:2577)
+	at D.logOutputMessage (/tmp/.mount_cursor0qdslY/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:3:285192)
+	at D.info (/tmp/.mount_cursor0qdslY/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:3:284925)
+	at ChildProcess.<anonymous> (/tmp/.mount_cursor0qdslY/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:3:503028)
+	at ChildProcess.emit (node:events:518:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-02-25 04:04:38.593 [error] Error: Channel has been closed
+	at r (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:2438)
+	at Object.appendLine (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:2577)
+	at D.logOutputMessage (/tmp/.mount_cursor0qdslY/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:3:264641)
+	at D.info (/tmp/.mount_cursor0qdslY/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:3:264374)
+	at ChildProcess.<anonymous> (/tmp/.mount_cursor0qdslY/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:3:482477)
+	at ChildProcess.emit (node:events:518:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-02-25 04:04:39.224 [info] Extension host with pid 48875 exiting with code 0

@@ -1,0 +1,157 @@
+2025-02-25 02:03:51.141 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-02-25 02:03:51.141 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-02-25 02:03:51.141 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-02-25 02:03:51.359 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2025-02-25 02:04:19.189 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 02:04:19.189 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 02:04:19.191 [error] NoWorkspaceUriError
+2025-02-25 02:04:19.293 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 02:04:19.294 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 02:04:19.294 [error] NoWorkspaceUriError
+2025-02-25 02:04:19.569 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 02:04:19.569 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 02:04:19.569 [error] NoWorkspaceUriError
+2025-02-25 02:04:19.683 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 02:04:19.683 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 02:04:19.683 [error] NoWorkspaceUriError
+2025-02-25 02:04:20.261 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 02:04:20.261 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 02:04:20.261 [error] NoWorkspaceUriError
+2025-02-25 02:09:02.844 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 02:09:02.844 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 02:09:02.947 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-02-25 02:09:02.992 [info] Doing a startup handshake.
+2025-02-25 02:09:02.992 [info] Creating merkle client.
+2025-02-25 02:09:02.992 [info] Done creating merkle client.
+2025-02-25 02:09:03.415 [info] Finished initializing merkle tree in 111.30083599999989 ms.
+2025-02-25 02:09:03.431 [info] Doing the initial handshake with hash: 06f686cd51cae62f5a541f4ad3721f85da001e189288d46b48a77c103c5c6a8f
+2025-02-25 02:09:03.448 [info] Handshake start
+2025-02-25 02:09:03.470 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/tino/.config/Cursor/User/workspaceStorage/f183238d0bf626110dfff9a00e7ac349/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2025-02-25 02:09:04.083 [info] Handshake timing: 639.3872650000003, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e06f7106-ed20-4840-a3ce-b815c8cadfa6","status":"STATUS_EMPTY"}]}
+2025-02-25 02:09:04.083 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e06f7106-ed20-4840-a3ce-b815c8cadfa6","status":"STATUS_EMPTY"}]}
+2025-02-25 02:09:04.084 [info] Starting fast remote sync.
+2025-02-25 02:09:04.084 [info] Total num embeddable files: 18
+2025-02-25 02:09:04.085 [info] Root hash: 06f686cd51cae62f5a541f4ad3721f85da001e189288d46b48a77c103c5c6a8f
+2025-02-25 02:09:04.085 [info] Starting repository upload from scratch.
+2025-02-25 02:09:04.088 [info] Uploading 18 files.
+2025-02-25 02:09:04.091 [info] Total number of files to embed: 18
+2025-02-25 02:09:04.091 [info] Not aborted
+2025-02-25 02:09:04.091 [info] Starting while loop.
+2025-02-25 02:09:04.091 [info] fileQueue.length: 18
+2025-02-25 02:09:04.091 [info] fileQueue.length: 17
+2025-02-25 02:09:04.091 [info] fileQueue.length: 16
+2025-02-25 02:09:04.091 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 16
+2025-02-25 02:09:04.348 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 02:09:04.348 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 02:09:04.352 [info] multiCodebaseIndexingJob dispose
+2025-02-25 02:09:04.352 [info] Aborting indexing job.
+2025-02-25 02:09:04.354 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-02-25 02:09:04.355 [info] Completed job unsuccessfully, will retry: ./go.mod error: Bad unexpected error
+2025-02-25 02:09:04.355 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 1 fileQueue.length: 17
+2025-02-25 02:09:04.356 [info] Indexing job successfully done or aborted.
+2025-02-25 02:09:04.357 [info] Doing a startup handshake.
+2025-02-25 02:09:04.357 [info] Creating merkle client.
+2025-02-25 02:09:04.357 [info] Done creating merkle client.
+2025-02-25 02:09:04.368 [info] Finished initializing merkle tree in 3.638221999999587 ms.
+2025-02-25 02:09:04.369 [info] Doing the initial handshake with hash: 06f686cd51cae62f5a541f4ad3721f85da001e189288d46b48a77c103c5c6a8f
+2025-02-25 02:09:04.372 [info] Handshake start
+2025-02-25 02:09:04.724 [error] Error Checking Connection: [unimplemented] HTTP 404
+2025-02-25 02:09:04.725 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 02:09:04.725 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 02:09:04.732 [info] Handshake timing: 362.96898800000054, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e06f7106-ed20-4840-a3ce-b815c8cadfa6","status":"STATUS_EMPTY"}]}
+2025-02-25 02:09:04.732 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e06f7106-ed20-4840-a3ce-b815c8cadfa6","status":"STATUS_EMPTY"}]}
+2025-02-25 02:09:04.732 [info] Starting fast remote sync.
+2025-02-25 02:09:04.733 [info] Total num embeddable files: 18
+2025-02-25 02:09:04.734 [info] Root hash: 06f686cd51cae62f5a541f4ad3721f85da001e189288d46b48a77c103c5c6a8f
+2025-02-25 02:09:04.734 [info] Starting repository upload from scratch.
+2025-02-25 02:09:04.734 [info] Uploading 18 files.
+2025-02-25 02:09:04.735 [info] Total number of files to embed: 18
+2025-02-25 02:09:04.735 [info] Not aborted
+2025-02-25 02:09:04.735 [info] Starting while loop.
+2025-02-25 02:09:04.735 [info] fileQueue.length: 18
+2025-02-25 02:09:04.736 [info] fileQueue.length: 17
+2025-02-25 02:09:04.736 [info] fileQueue.length: 16
+2025-02-25 02:09:04.736 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 16
+2025-02-25 02:09:04.838 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./go.mod
+2025-02-25 02:09:04.838 [info] fileQueue.length: 15
+2025-02-25 02:09:04.838 [info] fileQueue.length: 14
+2025-02-25 02:09:04.838 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 3 fileQueue.length: 14
+2025-02-25 02:09:04.939 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./README.md
+2025-02-25 02:09:04.939 [info] fileQueue.length: 13
+2025-02-25 02:09:04.939 [info] fileQueue.length: 12
+2025-02-25 02:09:04.939 [info] Waiting for jobs to finish. currentIndexingJobs.length: 4 concurrentUploads.current: 4 fileQueue.length: 12
+2025-02-25 02:09:05.475 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./main.go
+2025-02-25 02:09:05.475 [info] fileQueue.length: 11
+2025-02-25 02:09:05.475 [info] fileQueue.length: 10
+2025-02-25 02:09:05.475 [info] Waiting for jobs to finish. currentIndexingJobs.length: 5 concurrentUploads.current: 5 fileQueue.length: 10
+2025-02-25 02:09:05.593 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./editor/editor.go
+2025-02-25 02:09:05.593 [info] fileQueue.length: 9
+2025-02-25 02:09:05.593 [info] fileQueue.length: 8
+2025-02-25 02:09:05.593 [info] Waiting for jobs to finish. currentIndexingJobs.length: 6 concurrentUploads.current: 6 fileQueue.length: 8
+2025-02-25 02:09:05.724 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./editor/cursor.go
+2025-02-25 02:09:05.725 [info] fileQueue.length: 7
+2025-02-25 02:09:05.725 [info] fileQueue.length: 6
+2025-02-25 02:09:05.725 [info] Waiting for jobs to finish. currentIndexingJobs.length: 7 concurrentUploads.current: 7 fileQueue.length: 6
+2025-02-25 02:09:05.975 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./editor/syntax.go
+2025-02-25 02:09:05.975 [info] fileQueue.length: 5
+2025-02-25 02:09:05.975 [info] fileQueue.length: 4
+2025-02-25 02:09:05.975 [info] Waiting for jobs to finish. currentIndexingJobs.length: 8 concurrentUploads.current: 8 fileQueue.length: 4
+2025-02-25 02:09:06.476 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./editor/editor_test.go
+2025-02-25 02:09:06.476 [info] fileQueue.length: 3
+2025-02-25 02:09:06.476 [info] fileQueue.length: 2
+2025-02-25 02:09:06.476 [info] Waiting for jobs to finish. currentIndexingJobs.length: 9 concurrentUploads.current: 9 fileQueue.length: 2
+2025-02-25 02:09:06.480 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./editor/display.go
+2025-02-25 02:09:06.480 [info] fileQueue.length: 1
+2025-02-25 02:09:06.480 [info] fileQueue.length: 0
+2025-02-25 02:09:06.480 [info] Waiting for jobs to finish. currentIndexingJobs.length: 10 concurrentUploads.current: 10 fileQueue.length: 0
+2025-02-25 02:09:06.480 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./editor/search.go
+2025-02-25 02:09:06.481 [info] Waiting for jobs to finish. currentIndexingJobs.length: 9 concurrentUploads.current: 11 fileQueue.length: 0
+2025-02-25 02:09:06.530 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./editor/completions.go
+2025-02-25 02:09:06.530 [info] Waiting for jobs to finish. currentIndexingJobs.length: 8 concurrentUploads.current: 12 fileQueue.length: 0
+2025-02-25 02:09:06.697 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./editor/input.go
+2025-02-25 02:09:06.697 [info] Waiting for jobs to finish. currentIndexingJobs.length: 7 concurrentUploads.current: 13 fileQueue.length: 0
+2025-02-25 02:09:06.985 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./editor/filetree.go
+2025-02-25 02:09:06.985 [info] Waiting for jobs to finish. currentIndexingJobs.length: 6 concurrentUploads.current: 14 fileQueue.length: 0
+2025-02-25 02:09:07.108 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./editor/commands.go
+2025-02-25 02:09:07.109 [info] Waiting for jobs to finish. currentIndexingJobs.length: 5 concurrentUploads.current: 15 fileQueue.length: 0
+2025-02-25 02:09:07.440 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./LICENSE
+2025-02-25 02:09:07.440 [info] Waiting for jobs to finish. currentIndexingJobs.length: 4 concurrentUploads.current: 16 fileQueue.length: 0
+2025-02-25 02:09:07.442 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./cli.go
+2025-02-25 02:09:07.442 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 17 fileQueue.length: 0
+2025-02-25 02:09:07.521 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./editor/language.go
+2025-02-25 02:09:07.521 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 18 fileQueue.length: 0
+2025-02-25 02:09:07.588 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./editor/history.go
+2025-02-25 02:09:07.588 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 19 fileQueue.length: 0
+2025-02-25 02:09:07.687 [info] Completed job successfully: e06f7106-ed20-4840-a3ce-b815c8cadfa6 ./go.sum
+2025-02-25 02:09:07.687 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 20 fileQueue.length: 0
+2025-02-25 02:09:07.839 [info] Finished indexing repository.
+2025-02-25 02:09:07.839 [info] Indexing job successfully done or aborted.
+2025-02-25 02:09:12.849 [info] Search by message took 37.25336400000015ms for query ""
+2025-02-25 02:09:12.859 [info] Search by sha took 32.51143599999887ms for query ""
+2025-02-25 02:10:58.439 [info] Search by message took 41.06034600001294ms for query ""
+2025-02-25 02:10:58.479 [info] Search by message took 39.57934500000556ms for query ""
+2025-02-25 02:10:58.479 [info] Search by sha took 59.265044999992824ms for query ""
+2025-02-25 02:10:58.489 [info] Search by sha took 34.47727699999814ms for query ""
+2025-02-25 02:11:04.484 [info] Search by message took 30.622730000002775ms for query ""
+2025-02-25 02:11:04.511 [info] Search by message took 26.576014999998733ms for query ""
+2025-02-25 02:11:04.511 [info] Search by sha took 41.704656000001705ms for query ""
+2025-02-25 02:11:04.518 [info] Search by sha took 20.087568000002648ms for query ""
+2025-02-25 02:11:13.535 [info] Search by message took 34.687074999994365ms for query ""
+2025-02-25 02:11:13.569 [info] Search by message took 33.34165600000415ms for query ""
+2025-02-25 02:11:13.569 [info] Search by sha took 51.390374999988126ms for query ""
+2025-02-25 02:11:13.577 [info] Search by sha took 25.94669799998519ms for query ""
+2025-02-25 02:14:00.946 [info] Search by message took 40.47439699998358ms for query ""
+2025-02-25 02:14:00.955 [info] Search by sha took 29.538414000009652ms for query ""
+2025-02-25 02:15:34.629 [info] multiCodebaseIndexingJob dispose
+2025-02-25 02:15:34.629 [info] Aborting indexing job.

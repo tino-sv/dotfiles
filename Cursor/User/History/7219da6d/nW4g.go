@@ -1,0 +1,49 @@
+package editor
+
+// Undo/Redo functionality
+type Action struct {
+	Type    string
+	lineNum int
+	oldLine string
+	newLine string
+	cursorX int
+	cursorY int
+	text    string
+}
+
+const (
+	ActionInsert    = "insert"
+	ActionDelete    = "delete"
+	ActionJoinLines = "join_lines"
+)
+
+func (e *Editor) redo() {
+	if len(e.redoStack) == 0 {
+		return
+	}
+
+	// Get last redo action
+	action := e.redoStack[len(e.redoStack)-1]
+	e.redoStack = e.redoStack[:len(e.redoStack)-1]
+
+	// Save current state to undo stack
+	undoAction := Change{
+		lines:   e.lines,
+		cursorX: e.cursorX,
+		cursorY: e.cursorY,
+		action:  action.action,
+	}
+	e.undoStack = append(e.undoStack, undoAction)
+
+	// Apply redo action
+	e.lines[action.cursorY] = action.text
+	e.cursorX = action.cursorX
+	e.cursorY = action.cursorY
+	e.isDirty = true
+}
+
+// Initialize history stacks in editor.go's NewEditor function
+func (e *Editor) initHistory() {
+	e.undoStack = make([]Action, 0)
+	e.redoStack = make([]Action, 0)
+}

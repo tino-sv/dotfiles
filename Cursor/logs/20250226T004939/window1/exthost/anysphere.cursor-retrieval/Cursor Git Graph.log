@@ -1,0 +1,7 @@
+2025-02-26 00:49:49.799 [info] Using repo backend url https://repo42.cursor.sh
+2025-02-26 00:49:49.799 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/README.md
+2025-02-26 00:49:49.799 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/README.md
+2025-02-26 00:49:49.799 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/README.md
+2025-02-26 00:49:51.072 [info] Using repo backend url https://repo42.cursor.sh
+2025-02-26 00:49:51.800 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-02-26 01:04:50.214 [error] Failed to check if git graph is enabled [internal] Stream closed with error code NGHTTP2_REFUSED_STREAM

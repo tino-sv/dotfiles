@@ -1,0 +1,26 @@
+{
+    "workbench.colorTheme": "Vercel Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "editor.fontFamily": "JetBrainsMono NF",
+    "editor.tabSize": 3,
+    "editor.minimap.enabled": false,
+    "window.customTitleBarVisibility": "auto",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "Geist Mono",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "supermaven.enable": {
+        "*": false
+    },
+    "window.menuBarVisibility": "toggle",
+    "codeium.enableCodeLens": false,
+    "supermaven.enableFixWithSupermaven": true,
+    "editor.wordWrap": "on",
+    "files.autoSave": "onFocusChange",
+    "workbench.productIconTheme": "fluent-icons"
+}

@@ -1,0 +1,72 @@
+2025-02-25 02:21:38.890 [info] Getting Manifest... vscodevim.vim
+2025-02-25 02:21:39.727 [info] Installing extension: vscodevim.vim {"isMachineScoped":false,"installPreReleaseVersion":false,"donotVerifySignature":true,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/tino/.cursor/extensions/extensions.json","path":"/home/tino/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.45.14","date":"2025-02-19T20:36:48.096Z","vscodeVersion":"1.96.2"}}
+2025-02-25 02:21:39.823 [info] Started downloading extension: vscodevim.vim 1.29.0 file:///home/tino/.config/Cursor/CachedExtensionVSIXs/cursor-vscodevim.vim-1.29.0
+2025-02-25 02:21:41.523 [info] Extracted extension to file:///home/tino/.cursor/extensions/vscodevim.vim-1.29.0: vscodevim.vim
+2025-02-25 02:21:41.536 [info] Renamed to /home/tino/.cursor/extensions/vscodevim.vim-1.29.0
+2025-02-25 02:21:41.566 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/tino/.cursor/extensions/extensions.json
+2025-02-25 02:21:41.627 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/tino/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/tino/.cursor/extensions/extensions.json.vsctmp'
+    at bv.create (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40246)
+    at As (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40353)
+    at oo.ib (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ru.stat (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async eu.Ab (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-02-25 02:21:42.747 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/tino/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/tino/.cursor/extensions/extensions.json.vsctmp'
+    at bv.create (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40246)
+    at As (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40353)
+    at oo.ib (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ru.stat (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async eu.Ab (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-02-25 02:22:02.708 [info] Getting Manifest... golang.go
+2025-02-25 02:22:02.900 [info] Installing extension: golang.go {"isMachineScoped":false,"installPreReleaseVersion":false,"donotVerifySignature":true,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/tino/.cursor/extensions/extensions.json","path":"/home/tino/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.45.14","date":"2025-02-19T20:36:48.096Z","vscodeVersion":"1.96.2"}}
+2025-02-25 02:22:03.055 [info] Started downloading extension: golang.go 0.44.0 file:///home/tino/.config/Cursor/CachedExtensionVSIXs/cursor-golang.go-0.44.0
+2025-02-25 02:22:03.737 [info] Extracted extension to file:///home/tino/.cursor/extensions/golang.go-0.44.0: golang.go
+2025-02-25 02:22:03.761 [info] Renamed to /home/tino/.cursor/extensions/golang.go-0.44.0
+2025-02-25 02:22:03.821 [info] Extension installed successfully: golang.go vscode-userdata:/home/tino/.cursor/extensions/extensions.json
+2025-02-25 02:22:03.858 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/tino/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/tino/.cursor/extensions/extensions.json.vsctmp'
+    at bv.create (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40246)
+    at As (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40353)
+    at oo.ib (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ru.stat (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async eu.Ab (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-02-25 02:22:17.928 [info] Getting Manifest... achaq.vercel-theme
+2025-02-25 02:22:18.013 [info] Installing extension: achaq.vercel-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"donotVerifySignature":true,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/tino/.cursor/extensions/extensions.json","path":"/home/tino/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.45.14","date":"2025-02-19T20:36:48.096Z","vscodeVersion":"1.96.2"}}
+2025-02-25 02:22:18.092 [info] Started downloading extension: achaq.vercel-theme 1.0.3 file:///home/tino/.config/Cursor/CachedExtensionVSIXs/cursor-achaq.vercel-theme-1.0.3
+2025-02-25 02:22:19.714 [info] Extracted extension to file:///home/tino/.cursor/extensions/achaq.vercel-theme-1.0.3: achaq.vercel-theme
+2025-02-25 02:22:19.732 [info] Renamed to /home/tino/.cursor/extensions/achaq.vercel-theme-1.0.3
+2025-02-25 02:22:19.770 [info] Extension installed successfully: achaq.vercel-theme vscode-userdata:/home/tino/.cursor/extensions/extensions.json
+2025-02-25 02:22:19.827 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/tino/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/tino/.cursor/extensions/extensions.json.vsctmp'
+    at bv.create (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40246)
+    at As (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40353)
+    at oo.ib (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ru.stat (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async eu.Ab (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-02-25 02:22:38.852 [info] Getting Manifest... miguelsolorio.fluent-icons
+2025-02-25 02:22:38.934 [info] Installing extension: miguelsolorio.fluent-icons {"isMachineScoped":false,"installPreReleaseVersion":false,"donotVerifySignature":true,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/tino/.cursor/extensions/extensions.json","path":"/home/tino/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.45.14","date":"2025-02-19T20:36:48.096Z","vscodeVersion":"1.96.2"}}
+2025-02-25 02:22:39.027 [info] Started downloading extension: miguelsolorio.fluent-icons 0.0.19 file:///home/tino/.config/Cursor/CachedExtensionVSIXs/cursor-miguelsolorio.fluent-icons-0.0.19
+2025-02-25 02:22:39.851 [info] Extracted extension to file:///home/tino/.cursor/extensions/miguelsolorio.fluent-icons-0.0.19: miguelsolorio.fluent-icons
+2025-02-25 02:22:39.869 [info] Renamed to /home/tino/.cursor/extensions/miguelsolorio.fluent-icons-0.0.19
+2025-02-25 02:22:39.910 [info] Extension installed successfully: miguelsolorio.fluent-icons vscode-userdata:/home/tino/.cursor/extensions/extensions.json
+2025-02-25 02:22:39.966 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/tino/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/tino/.cursor/extensions/extensions.json.vsctmp'
+    at bv.create (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40246)
+    at As (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40353)
+    at oo.ib (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ru.stat (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async eu.Ab (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-02-25 02:22:50.787 [info] Getting Manifest... tal7aouy.icons
+2025-02-25 02:22:50.873 [info] Installing extension: tal7aouy.icons {"isMachineScoped":false,"installPreReleaseVersion":false,"donotVerifySignature":true,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/tino/.cursor/extensions/extensions.json","path":"/home/tino/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.45.14","date":"2025-02-19T20:36:48.096Z","vscodeVersion":"1.96.2"}}
+2025-02-25 02:22:51.001 [info] Started downloading extension: tal7aouy.icons 3.8.0 file:///home/tino/.config/Cursor/CachedExtensionVSIXs/cursor-tal7aouy.icons-3.8.0
+2025-02-25 02:22:52.482 [info] Extracted extension to file:///home/tino/.cursor/extensions/tal7aouy.icons-3.8.0: tal7aouy.icons
+2025-02-25 02:22:52.526 [info] Renamed to /home/tino/.cursor/extensions/tal7aouy.icons-3.8.0
+2025-02-25 02:22:52.567 [info] Extension installed successfully: tal7aouy.icons vscode-userdata:/home/tino/.cursor/extensions/extensions.json
+2025-02-25 02:22:52.620 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/tino/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/tino/.cursor/extensions/extensions.json.vsctmp'
+    at bv.create (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40246)
+    at As (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40353)
+    at oo.ib (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ru.stat (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async eu.Ab (file:///tmp/.mount_cursor0qdslY/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)

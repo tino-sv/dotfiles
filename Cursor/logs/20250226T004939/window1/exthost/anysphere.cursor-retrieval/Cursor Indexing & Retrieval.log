@@ -1,0 +1,59 @@
+2025-02-26 00:49:49.799 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-26 00:49:49.799 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-26 00:49:49.799 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-02-26 00:49:49.799 [info] Doing a startup handshake.
+2025-02-26 00:49:49.799 [info] Creating merkle client.
+2025-02-26 00:49:49.799 [info] Done creating merkle client.
+2025-02-26 00:49:49.918 [info] Finished initializing merkle tree in 74.13959000000068 ms.
+2025-02-26 00:49:49.980 [info] Doing the initial handshake with hash: a8b3209981f6c951e53c1887dc3fa777003f92f61bef9c3c9259763173f28ac1
+2025-02-26 00:49:50.040 [info] Handshake start
+2025-02-26 00:49:50.524 [info] Handshake timing: 494.24277299999994, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e06f7106-ed20-4840-a3ce-b815c8cadfa6","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 00:49:50.524 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e06f7106-ed20-4840-a3ce-b815c8cadfa6","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 00:49:50.525 [info] Starting fast remote sync.
+2025-02-26 00:49:50.526 [info] Total num embeddable files: 20
+2025-02-26 00:49:50.528 [info] Root hash: a8b3209981f6c951e53c1887dc3fa777003f92f61bef9c3c9259763173f28ac1
+2025-02-26 00:49:50.653 [info] Finished indexing repository.
+2025-02-26 00:49:50.653 [info] Indexing job successfully done or aborted.
+2025-02-26 00:49:50.961 [info] Search by message took 37.802684999999656ms for query ""
+2025-02-26 00:49:50.982 [info] Search by sha took 45.86494700000003ms for query ""
+2025-02-26 00:49:51.072 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-26 00:49:51.072 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-26 00:49:51.073 [info] multiCodebaseIndexingJob dispose
+2025-02-26 00:49:51.073 [info] Aborting indexing job.
+2025-02-26 00:49:51.073 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-02-26 00:49:51.114 [info] Doing a startup handshake.
+2025-02-26 00:49:51.114 [info] Creating merkle client.
+2025-02-26 00:49:51.114 [info] Done creating merkle client.
+2025-02-26 00:49:51.205 [info] Finished initializing merkle tree in 23.56645800000024 ms.
+2025-02-26 00:49:51.206 [info] Doing the initial handshake with hash: a8b3209981f6c951e53c1887dc3fa777003f92f61bef9c3c9259763173f28ac1
+2025-02-26 00:49:51.208 [info] Handshake start
+2025-02-26 00:49:51.442 [info] Handshake timing: 236.31710699999985, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e06f7106-ed20-4840-a3ce-b815c8cadfa6","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 00:49:51.442 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e06f7106-ed20-4840-a3ce-b815c8cadfa6","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 00:49:51.442 [info] Starting fast remote sync.
+2025-02-26 00:49:51.443 [info] Total num embeddable files: 20
+2025-02-26 00:49:51.443 [info] Root hash: a8b3209981f6c951e53c1887dc3fa777003f92f61bef9c3c9259763173f28ac1
+2025-02-26 00:49:51.519 [info] Finished indexing repository.
+2025-02-26 00:49:51.519 [info] Indexing job successfully done or aborted.
+2025-02-26 00:54:43.634 [info] Search by message took 28.64637200004654ms for query ""
+2025-02-26 00:54:43.642 [info] Search by sha took 21.049063999962527ms for query ""
+2025-02-26 00:59:43.661 [info] Search by message took 31.78208999999333ms for query ""
+2025-02-26 00:59:43.668 [info] Search by sha took 22.38003000000026ms for query ""
+2025-02-26 00:59:51.077 [info] multiCodebaseIndexingJob dispose
+2025-02-26 00:59:51.077 [info] Aborting indexing job.
+2025-02-26 00:59:51.077 [info] Doing a startup handshake.
+2025-02-26 00:59:51.077 [info] Creating merkle client.
+2025-02-26 00:59:51.077 [info] Done creating merkle client.
+2025-02-26 00:59:51.092 [info] Finished initializing merkle tree in 5.993062000023201 ms.
+2025-02-26 00:59:51.094 [info] Doing the initial handshake with hash: a8b3209981f6c951e53c1887dc3fa777003f92f61bef9c3c9259763173f28ac1
+2025-02-26 00:59:51.098 [info] Handshake start
+2025-02-26 00:59:51.410 [info] Handshake timing: 315.7696439999854, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e06f7106-ed20-4840-a3ce-b815c8cadfa6","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 00:59:51.411 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e06f7106-ed20-4840-a3ce-b815c8cadfa6","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 00:59:51.411 [info] Starting fast remote sync.
+2025-02-26 00:59:51.411 [info] Total num embeddable files: 20
+2025-02-26 00:59:51.412 [info] Root hash: a8b3209981f6c951e53c1887dc3fa777003f92f61bef9c3c9259763173f28ac1
+2025-02-26 00:59:51.507 [info] Finished indexing repository.
+2025-02-26 00:59:51.507 [info] Indexing job successfully done or aborted.
+2025-02-26 01:04:43.835 [info] Search by sha took 47.40764400002081ms for query ""
+2025-02-26 01:04:43.836 [info] Search by message took 66.30285099998582ms for query ""
+2025-02-26 01:06:36.880 [info] multiCodebaseIndexingJob dispose
+2025-02-26 01:06:36.880 [info] Aborting indexing job.

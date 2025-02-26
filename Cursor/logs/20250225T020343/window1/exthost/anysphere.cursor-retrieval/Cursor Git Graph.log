@@ -1,0 +1,14 @@
+2025-02-25 02:03:51.141 [info] Using repo backend url https://repo42.cursor.sh
+2025-02-25 02:03:53.109 [error] Failed to get git graph client
+2025-02-25 02:04:20.261 [info] Using repo backend url https://repo42.cursor.sh
+2025-02-25 02:08:53.967 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-02-25 02:09:02.844 [info] Using repo backend url https://repo42.cursor.sh
+2025-02-25 02:09:04.348 [info] Using repo backend url https://repo42.cursor.sh
+2025-02-25 02:09:05.161 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-02-25 02:09:09.522 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 02:09:09.523 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 02:09:09.523 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 02:09:09.530 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 02:09:09.530 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 02:09:09.531 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go
+2025-02-25 02:09:09.531 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/tino/code/kikis-text-editor/main.go

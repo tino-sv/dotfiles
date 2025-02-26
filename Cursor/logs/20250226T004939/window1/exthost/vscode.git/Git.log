@@ -1,0 +1,29 @@
+2025-02-26 00:49:49.304 [info] [main] Log level: Info
+2025-02-26 00:49:49.304 [info] [main] Validating found git in: "git"
+2025-02-26 00:49:49.304 [info] [main] Using git "2.48.1" from "git"
+2025-02-26 00:49:49.304 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-26 00:49:49.304 [info] > git rev-parse --show-toplevel [29ms]
+2025-02-26 00:49:49.304 [info] > git rev-parse --git-dir --git-common-dir [42ms]
+2025-02-26 00:49:49.304 [info] [Model][openRepository] Opened repository: /home/tino/code/kikis-text-editor
+2025-02-26 00:49:49.304 [info] > git rev-parse --show-toplevel [37ms]
+2025-02-26 00:49:49.304 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-26 00:49:49.304 [info] > git config --get commit.template [50ms]
+2025-02-26 00:49:49.561 [info] > git show --textconv :README.md [59ms]
+2025-02-26 00:49:49.561 [info] > git check-ignore -v -z --stdin [36ms]
+2025-02-26 00:49:49.565 [info] > git ls-files --stage -- /home/tino/code/kikis-text-editor/README.md [53ms]
+2025-02-26 00:49:49.577 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [256ms]
+2025-02-26 00:49:49.637 [info] > git cat-file -s 15e80265b41c8f0471e1b976f995da0323b282cd [61ms]
+2025-02-26 00:49:49.670 [info] > git check-ignore -v -z --stdin [21ms]
+2025-02-26 00:49:49.764 [info] > git status -z -uall [50ms]
+2025-02-26 00:49:49.767 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [40ms]
+2025-02-26 00:49:49.823 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2025-02-26 00:49:49.845 [info] > git config --local branch.main.vscode-merge-base [7ms]
+2025-02-26 00:49:49.856 [info] > git config --get commit.template [39ms]
+2025-02-26 00:49:49.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [13ms]
+2025-02-26 00:49:49.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2025-02-26 00:49:49.930 [info] > git status -z -uall [27ms]
+2025-02-26 00:49:49.932 [info] > git merge-base refs/heads/main refs/remotes/origin/main [50ms]
+2025-02-26 00:49:49.955 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [38ms]
+2025-02-26 00:49:49.982 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2025-02-26 00:49:49.991 [info] > git diff --name-status -z --diff-filter=ADMR 8814b39d178101a641df4e95a167c7e6684c8c1a...refs/remotes/origin/main [43ms]
+2025-02-26 00:49:50.051 [info] > git diff --name-status -z --diff-filter=ADMR 8814b39d178101a641df4e95a167c7e6684c8c1a...refs/remotes/origin/main [61ms]

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "sessionId": "9587b997-65af-446b-85e7-635af543b1f6",
+  "linearHistory": [],
+  "linearHistoryIndex": 0,
+  "initialFileContents": [],
+  "recentSnapshot": {
+    "workingSet": [
+      [
+        "file:///home/tino/tinoblog/blog/bun.lockb",
+        {
+          "description": "Often edited with Footer.vue (Suggested)",
+          "state": 6
+        }
+      ],
+      [
+        "file:///home/tino/tinoblog/blog/index.html",
+        {
+          "description": "Often edited with Header.vue (Suggested)",
+          "state": 6
+        }
+      ],
+      [
+        "file:///home/tino/tinoblog/blog/src/components/Header.vue",
+        {
+          "state": 3,
+          "description": "Open Editor"
+        }
+      ]
+    ],
+    "entries": []
+  },
+  "filesToSkipCreating": []
+}
